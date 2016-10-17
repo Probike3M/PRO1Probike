@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario bicis robadas</title>
+  <link rel="stylesheet" type="text/css" href="/css/estilos.css" media="all" />
+<meta charset="utf-8">
+</head>
+<body>
+
+      <form id="search_mini_form" name="buscador" method="GET" action="buscador.php">
+        <fieldset>
+          <h1>Localizador de Bicicletas</h1>
+          <p>Rellena tus condiciones de búsqueda</p>
+          
+        </fieldset>
+        <fieldset>
+          <div class="form-search">
+            <label for="marca">Marca</label>
+            <select name="anu_marca" id="anu_marca" >
+              <OPTION VALUE="0">Elige una marca</OPTION>
+              <OPTION VALUE="Orbea">Orbea</OPTION>
+              <OPTION VALUE="BTWIN">BTWIN</OPTION>
+              </select>
+          </div>
+          <div>
+            <label for="modelo">Modelo</label>
+           <input type="text" name="anu_modelo" id="anu_modelo" value="">
+          </div>
+          <div>
+           
+          </div>
+          <div>
+            <label for="color">Color</label>
+            <select name="anu_color" id="anu_color" >
+              <OPTION VALUE="0">Elige un Color</OPTION>
+              <OPTION VALUE="Amarilla">Amarilla</OPTION>
+              <OPTION VALUE="Azul">Azul</OPTION>
+              <OPTION VALUE="Blanca">Blanca</OPTION>
+              <OPTION VALUE="Negra">Negra</OPTION>
+             </select>
+              <div>
+            <label for="serie">Numero de serie</label>
+            <input type="text" name="anu_numero_serie" id="serie" value="">
+            
+          </div>
+          </div>
+        </fieldset>
+        
+         
+          <div class="botonform">
+            <input type="submit" name="accion" value="Borrar" />
+            <input type="submit" name="accion" value="Buscar" />
+          </div>
+        
+      </form>
+    </div>
+</body>
+</html>
