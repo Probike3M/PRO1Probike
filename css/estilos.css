@@ -177,6 +177,10 @@ ul,ol         { list-style:none; }
 .col-left { float:left; width:195px; padding:0 0 1px;}
 .col-main { float:left; width: 754px; padding:0 0 1px; }
 .col-right { float:right; width:195px; padding:0 0 1px; }
+
+.nueva_clase {width: 50%; height: 220%; position:absolute; margin-left: 30%; margin-top: -25%; }
+.anuncios{ background: white;  }
+.buscador {float:left; width: 15%; margin-left: 0%; }
 /* 1 Column Layout */
 .col1-layout .col-main { float:none; width:auto; }
 
@@ -4836,24 +4840,24 @@ h2.title_filters {
 .wrapper-inner-footer{width:950px; margin:0 auto;}
 .catalog-product-view .productos_vistos_view{margin-bottom:20px;}
 .catalog-product-view .productos_vistos_view .block-content li{margin:0px;}
-/* Línea 2345 cambiado {float:none;width:950px;margin:10px 0px 0px;} */
-/* Línea 1773 cambiado {margin:0px; margin:0 0 20px;} */
-/* Línea 1849 cambiado {border-right:0px;width:185px;}*/
-/* Línea 2593 cambiado {margin:0 0 20px;}*/
-/* Línea 2157 cambiado {width:355px;}*/
-/* Línea 2128 cambiado {width:949px;}*/
-/* Línea 2528 cambiado {float:none;position:absolute;right:25px; top:75px;} */
-/* Línea 1972 cambiado{margin:0px;} */
-/* Línea 2155 cambiado{float:none;} */
-/* Línea 2114 cambiado{margin: 10px 0;} */
-/* Línea 4517 cambiado{width:950px; margin:0 auto;} */
-/* Línea 4601 cambiado{color:#FFFFFF;} */
-/* Línea 4656 cambiado{color:#FFFFFF;} */
-/* Línea 4597 cambiado{color:#FFFFFF;} */
-/* Línea 4594 cambiado{color:#FFFFFF;} */
-/* Línea 4586 cambiado{color:#FFFFFF; margin:0 auto; display:inline-block;} */
-/* Línea 4590 cambiado{width:350px; text-align:center;} */
-/* Línea 4526 cambiado{height:198px;} */
+/* LÃ­nea 2345 cambiado {float:none;width:950px;margin:10px 0px 0px;} */
+/* LÃ­nea 1773 cambiado {margin:0px; margin:0 0 20px;} */
+/* LÃ­nea 1849 cambiado {border-right:0px;width:185px;}*/
+/* LÃ­nea 2593 cambiado {margin:0 0 20px;}*/
+/* LÃ­nea 2157 cambiado {width:355px;}*/
+/* LÃ­nea 2128 cambiado {width:949px;}*/
+/* LÃ­nea 2528 cambiado {float:none;position:absolute;right:25px; top:75px;} */
+/* LÃ­nea 1972 cambiado{margin:0px;} */
+/* LÃ­nea 2155 cambiado{float:none;} */
+/* LÃ­nea 2114 cambiado{margin: 10px 0;} */
+/* LÃ­nea 4517 cambiado{width:950px; margin:0 auto;} */
+/* LÃ­nea 4601 cambiado{color:#FFFFFF;} */
+/* LÃ­nea 4656 cambiado{color:#FFFFFF;} */
+/* LÃ­nea 4597 cambiado{color:#FFFFFF;} */
+/* LÃ­nea 4594 cambiado{color:#FFFFFF;} */
+/* LÃ­nea 4586 cambiado{color:#FFFFFF; margin:0 auto; display:inline-block;} */
+/* LÃ­nea 4590 cambiado{width:350px; text-align:center;} */
+/* LÃ­nea 4526 cambiado{height:198px;} */
 .pedir_infor_container{position:absolute; bottom:0px; right:-5px;}
 .catalog-product-view .pedir_infor_container .button.btn-cart span{border:2px solid #FD6C1D;background: none repeat scroll 0 0 #ffffff;color:#FD6C1D;
     background:url("../../../../../media/meinteresabutton.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);padding:0px 8px 0px 0px;
@@ -4867,9 +4871,9 @@ h2.title_filters {
 .catalog-category-view .col-left{margin-top:63px;}
 .catalog-category-view .breadcrumbs{position: relative;left: 0;padding: 0 20px 10px;box-sizing: border-box;height: auto;}
 .catalog-category-view .page-title.category-title{position:absolute; left:0px;top:20px;}
-/* Línea 1763 cambiado{top:32px;} */
-/* Línea 1848 cambiado{width:195px;} */
-/* Línea 1778 cambiado{position:absolute;top:24px;margin:10px 35px 0;width:75%;} */
+/* LÃ­nea 1763 cambiado{top:32px;} */
+/* LÃ­nea 1848 cambiado{width:195px;} */
+/* LÃ­nea 1778 cambiado{position:absolute;top:24px;margin:10px 35px 0;width:75%;} */
 #category-banners{background-color:#FFFFFF;padding:10px;border: 1px solid #cfcfcf;}
 #category-banners h2.title_banner{padding: 0px;text-align: center;
     font-family: HelveticaNeueLTPro57Condensed;font-size: 19px;font-weight: bold;letter-spacing: 0.04em;}
@@ -4902,7 +4906,7 @@ h2.title_filters {
 .category-marques.catalog-category-view .page-title.category-title,
 .category-marcas.catalog-category-view .page-title.category-title{display: none !important;left: 0;position: relative;top: 20px;}
 
-/** #2258: Probike REDES :: r008 | Web Móvil :: Fitxa producte: Ajustar disseny dels atributs configurables -> Lo comentamos antes de hacer nada. **/
+/** #2258: Probike REDES :: r008 | Web MÃ³vil :: Fitxa producte: Ajustar disseny dels atributs configurables -> Lo comentamos antes de hacer nada. **/
 .configurable_attribute_container .attribute_label{/*color:#fd6c1d;*/color:#000000;font-weight: bold;}
 .attribute_options_container .attribute_option{max-width:31px;max-height:31px;border: 1px solid #999;}
 .attribute_options_container .attribute_option img{width: 29px;height: 29px;padding-top: 1px;}
@@ -4931,28 +4935,28 @@ color: #fff;
 .msg_important_recollida.ico_info{display:block;float:left;margin:0 0 0 60px;}
 /****/
 
-/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Menús textos cortados. **/
-/* Línea 971 editado */
-/* Línea 1110 editado */
+/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: MenÃºs textos cortados. **/
+/* LÃ­nea 971 editado */
+/* LÃ­nea 1110 editado */
 /* Linea 1004 a 10019 editadas */
 /****/
 
-/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Reestructurar parte de la imágen ficha de producto para productos con "Solo en tienda" **/
-/* Línea 2167 editada */
+/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Reestructurar parte de la imÃ¡gen ficha de producto para productos con "Solo en tienda" **/
+/* LÃ­nea 2167 editada */
 /****/
 
-/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: En el listado de productos quitar título de la página.**/
-/* Línea 1772 editada */
-/* Línea 1780 editada */
-/* Línea 517 editada */
+/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: En el listado de productos quitar tÃ­tulo de la pÃ¡gina.**/
+/* LÃ­nea 1772 editada */
+/* LÃ­nea 1780 editada */
+/* LÃ­nea 517 editada */
 /****/
 
-/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: EN la ficha de producto quitar título de la página.**/
-/* Línea 2189 editada */
+/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: EN la ficha de producto quitar tÃ­tulo de la pÃ¡gina.**/
+/* LÃ­nea 2189 editada */
 /****/
 
 /** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: En el bloque de recomendados ajustar el nombre de los productos que ahora se desborda. **/
-/* Línea 1861 editada */
+/* LÃ­nea 1861 editada */
 /****/
 
 /** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Blueknow en lugar de 3 columnas que sea en 5 y ajustar la altura del bloque del blueknow. **/
@@ -4961,7 +4965,7 @@ color: #fff;
 /*Linea 2382 editada*/
 /****/
 
-/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Ajustar grid de categoría, sin descripción en la parte superior. **/
+/** #3200: Probike REDES :: r003 | Ficha producto: Varias mejoras :: Ajustar grid de categorÃ­a, sin descripciÃ³n en la parte superior. **/
 .catalog-category-view .category-description.std{display:none;}
 /*Linea 1772 editada
 .catalog-category-view .col2-left-layout .main .col-main .category-products{top: 37px;}
