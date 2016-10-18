@@ -178,9 +178,11 @@ ul,ol         { list-style:none; }
 .col-main { float:left; width: 754px; padding:0 0 1px; }
 .col-right { float:right; width:195px; padding:0 0 1px; }
 
-.nueva_clase {width: 50%; height: 220%; position:absolute; margin-left: 30%; margin-top: -25%; }
+.nueva_clase {background: red; width: 50%; height: auto; position:absolute; margin-left: 30%; margin-top: -25%; }
 .anuncios{ background: white;  }
-.buscador {float:left; width: 15%; margin-left: 0%; }
+.buscador {background: white; float:left; width: 15%; margin-left: 2%; }
+
+
 /* 1 Column Layout */
 .col1-layout .col-main { float:none; width:auto; }
 
@@ -4555,7 +4557,10 @@ h2.title_filters {
 
 
 /* Footer ================================================================================ */
-.footer-container { }
+.footer-container {
+     margin: 0 auto; 
+     position: relative;
+}
 
 .footer-services { padding:25px 20px; background:#e8e8e8; width: 950px; margin: 0 auto; }
 .footer-services ul { position:relative; padding:15px 0; overflow:hidden; border-top:4px solid #fe6b1d; border-bottom:4px solid #fe6b1d; width:950px; margin:0 auto;}
@@ -4568,6 +4573,7 @@ h2.title_filters {
 .footer-services ul li.envio { width:150px; padding:4px 0 4px 60px; position:absolute; top:15px; right:0; background-position: -253px -316px; }
 
 .footer {
+     
     position: relative;
     /*height: 198px;*/
     min-height: 198px;

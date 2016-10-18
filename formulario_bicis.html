@@ -2,12 +2,12 @@
 <html>
 <head>
   <title>Formulario bicis robadas</title>
-  <link rel="stylesheet" type="text/css" href="/css/estilos.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="./css/estilos.css" media="all" />
 <meta charset="utf-8">
 </head>
 <body>
-
-      <form id="search_mini_form" name="buscador" method="GET" action="buscador.php">
+<div class="col-left sidebar">
+      <form id="search_mini_form" name="buscador" method="GET" action="buscador_integrado.php">
         <fieldset>
           <h1>Localizador de Bicicletas</h1>
           <p>Rellena tus condiciones de búsqueda</p>
@@ -16,11 +16,7 @@
         <fieldset>
           <div class="form-search">
             <label for="marca">Marca</label>
-            <select name="anu_marca" id="anu_marca" >
-              <OPTION VALUE="0">Elige una marca</OPTION>
-              <OPTION VALUE="Orbea">Orbea</OPTION>
-              <OPTION VALUE="BTWIN">BTWIN</OPTION>
-              </select>
+             <input type="text" name="anu_marca" id="anu_marca" value="">
           </div>
           <div>
             <label for="modelo">Modelo</label>
@@ -37,6 +33,10 @@
               <OPTION VALUE="Azul">Azul</OPTION>
               <OPTION VALUE="Blanca">Blanca</OPTION>
               <OPTION VALUE="Negra">Negra</OPTION>
+              <OPTION VALUE="Verde">Verde</OPTION>
+              <OPTION VALUE="Naranja">Naranja</OPTION>
+              <OPTION VALUE="Rosa">Rosa</OPTION>
+               <OPTION VALUE="Roja">Roja</OPTION>
              </select>
               <div>
             <label for="serie">Numero de serie</label>
@@ -45,7 +45,21 @@
           </div>
           </div>
         </fieldset>
-        
+        <div>
+ 
+            <label for="orden">Ordenar por:</label>
+
+            <select name="orden" id="orden" >
+              <OPTION VALUE="0">Elige un orden</OPTION>
+              <OPTION VALUE="`anu_marca`">Marca</OPTION>
+              <OPTION VALUE="`anu_modelo`">Modelo</OPTION>
+              <OPTION VALUE="`anu_data_anunci`">Fecha anuncio</OPTION>
+              <OPTION VALUE="`anu_data_robatori`">Fecha robo</OPTION>
+           
+             </select>
+             
+              <div>
+   
          
           <div class="botonform">
             <input type="submit" name="accion" value="Borrar" />
@@ -53,6 +67,7 @@
           </div>
         
       </form>
+    </div>
     </div>
 </body>
 </html>

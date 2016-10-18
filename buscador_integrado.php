@@ -16,7 +16,7 @@
 //]]>
 </script>
 <![endif]-->
-
+<link rel="stylesheet" type="text/css" href="./css/estilos.css" media="all">
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/default/default/css/styles3.css" media="all">
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/base/default/css/widgets.css" media="all">
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/default/default/css/searchautocomplete.css" media="all">
@@ -30,6 +30,8 @@
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/base/default/css/cookienotice.css" media="all">
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/default/default/css/ajaxscroll/ajaxscroll.css" media="all">
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/skin/frontend/default/default/css/print.css" media="print">
+
+
 <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="http://www.probike.com/js/prototype/prototype.js"></script>
 <script type="text/javascript" src="http://www.probike.com/js/lib/ccard.js"></script>
 <script type="text/javascript" src="http://www.probike.com/js/prototype/validation.js"></script>
@@ -165,19 +167,19 @@ __cineticGA('send','event',accion,label,valor);
 
 </script><!-- End Google Analytics Universal-->
 <!-- jQuery LightBoxes -->
-				
-    	<!-- FancyBox -->
+                
+        <!-- FancyBox -->
 <script type="text/javascript" src="http://www.probike.com/js/lightboxes/fancybox/jquery.easing-1.3.pack.js"></script>
 <script type="text/javascript" src="http://www.probike.com/js/lightboxes/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="http://www.probike.com/js/lightboxes/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <link rel="stylesheet" type="text/css" href="http://www.probike.com/js/lightboxes/fancybox/jquery2.fancybox-1.3.4b.css" media="screen">
 <!-- FancyBox -->
-	
-		<!-- FancyBox -->
+    
+        <!-- FancyBox -->
 <script type="text/javascript">
     jQuery(document).ready(function(){
         jQuery("a[rel=fancybox],a[rel=fancybox-main]").fancybox({
-			'padding' : 10,
+            'padding' : 10,
 'margin' : 40,
 'opacity' : 1,
 'scrolling' : 'auto',
@@ -197,73 +199,73 @@ __cineticGA('send','event',accion,label,valor);
 'showCloseButton' : 1,
 'showNavArrows' : 1,
 'enableEscapeButton' : 1
-		});
+        });
 
     });
 </script>
 <!-- //FancyBox -->
 
 
-	
-	
+    
+    
     <!-- //jQuery LightBoxes -->
 
 <style type="text/css">
-	
-	.gan-loadinfo{
-		
-				border-color:#000000 !important;
-				
-				background-color:#FFFFFF !important;
-				
-				
-				
-				display:none !important;
-				
-	}
-	/* Background Color */
-	.block-layered-nav .block-content{
-				background:#545454;
-			}
-	
-	/* Buttons Color */
-	.block-layered-nav .block-content button.button span span{
-				color:#1F5070;
-				
-	}
-	
-	/* Slider Color */	
-	#narrow-by-list .gan-slider-span{
-				background:#989898;
-			}
-	
-	/* Popup Window Background */
-	#gan-left-nav-main-container .filter-note-content,
-	#gan-right-nav-main-container .filter-note-content,
-	#narrow-by-list dd.filter-note-content{
-				background:#FFFFFF;
-			}
-	
-	/* Help Icon View */
-	#gan-left-nav-main-container .filter-note-handle,
-	#gan-right-nav-main-container .filter-note-handle,
-	#narrow-by-list .filter-note-handle{
-				color:#1F5070;
-			}
+    
+    .gan-loadinfo{
+        
+                border-color:#000000 !important;
+                
+                background-color:#FFFFFF !important;
+                
+                
+                
+                display:none !important;
+                
+    }
+    /* Background Color */
+    .block-layered-nav .block-content{
+                background:#545454;
+            }
+    
+    /* Buttons Color */
+    .block-layered-nav .block-content button.button span span{
+                color:#1F5070;
+                
+    }
+    
+    /* Slider Color */  
+    #narrow-by-list .gan-slider-span{
+                background:#989898;
+            }
+    
+    /* Popup Window Background */
+    #gan-left-nav-main-container .filter-note-content,
+    #gan-right-nav-main-container .filter-note-content,
+    #narrow-by-list dd.filter-note-content{
+                background:#FFFFFF;
+            }
+    
+    /* Help Icon View */
+    #gan-left-nav-main-container .filter-note-handle,
+    #gan-right-nav-main-container .filter-note-handle,
+    #narrow-by-list .filter-note-handle{
+                color:#1F5070;
+            }
 </style>
 <script type="text/javascript">
-	
-	// <![CDATA[
-	
-		var loadimage = 'http://www.probike.com/skin/frontend/default/default/images/gomage/loadinfo.gif';
-		var loadimagealign = 'left';
-	
-		
-	var gomage_navigation_loadinfo_text = "Loading, please wait...";
-	var gomage_navigation_urlhash = false;
-	
-	// ]]>
-	
+    
+    // <![CDATA[
+    
+        var loadimage = 'http://www.probike.com/skin/frontend/default/default/images/gomage/loadinfo.gif';
+        var loadimagealign = 'left';
+    
+        
+    var gomage_navigation_loadinfo_text = "Loading, please wait...";
+    var gomage_navigation_urlhash = false;
+    
+    // ]]>
+    
 </script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script></head>
 <body class=" catalog-category-view categorypath-bicicletas-html category-bicicletas">
 <script type="text/javascript">
@@ -444,12 +446,12 @@ _gaq.push(['_trackPageview']);
 </div>
 
 <script type="text/javascript">// <![CDATA[
-	$('block-cart-pop').observe('mouseenter',function(){
-		$('block-content-sidebar').show();
-	});
-	$('block-cart-pop').observe('mouseleave',function(){
-		$('block-content-sidebar').hide();
-	});
+    $('block-cart-pop').observe('mouseenter',function(){
+        $('block-content-sidebar').show();
+    });
+    $('block-cart-pop').observe('mouseleave',function(){
+        $('block-content-sidebar').hide();
+    });
 // ]]></script>
 
 
@@ -457,7 +459,7 @@ _gaq.push(['_trackPageview']);
                 <div class="nav-container">
     <div class="telf">934 197 889</div>
     <ul id="nav">
-    	<li class="level0 nav-1 active level-top first parent">
+        <li class="level0 nav-1 active level-top first parent">
 <a href="http://www.probike.com/bicicletas.html" class="level-top">
 <span>Bicicletas</span>
 
@@ -2149,12 +2151,11 @@ _gaq.push(['_trackPageview']);
                                 </li>
             </ul>
 </div>
-
-
 <!--
 Aqui empieza nuestro codigo
--->
 
+hemos integrado el formulario en la página que nos han asignado para el pro
+-->
 <div class="col-left sidebar">
       <form id="search_mini_form" name="buscador" method="GET" action="buscador_integrado.php">
         <fieldset>
@@ -2216,89 +2217,88 @@ Aqui empieza nuestro codigo
           </div>
         
       </form>
-</div>
+    </div>
+
+    <div class="nueva_clase">
+
+        <?php
+        
+        //conexion a la bbdd        direccion, ususario, contraseña, base de datos con la q queremos trabajar
+        $conexion = mysqli_connect('localhost', 'root', '','bd_proyecto1' );
+        $acentos = $conexion->query("SET NAMES 'utf8'"); //esta sentencia hace que las consultas se muestren con acentos.
 
 
-<!--
-a partir de aqui peta, no carga el php en la integracion de la pagina.
--->
-<div class="nueva_clase">
+        if (!$conexion) {
+        echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
+        echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;
+        echo "error de depuración: " . mysqli_connect_error() . PHP_EOL;
+        exit;
+        }
 
-    <?php
-    //conexion a la bbdd        direccion, ususario, contraseña, base de datos con la q queremos trabajar
-    $conexion = mysqli_connect('localhost', 'root', '','bd_proyecto1' );
-    $acentos = $conexion->query("SET NAMES 'utf8'"); //esta sentencia hace que las consultas se muestren con acentos.
-
-
-    if (!$conexion) {
-    echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
-    echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;
-    echo "error de depuración: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-    }
-
-    extract($_REQUEST);
+        extract($_REQUEST);
 
 
-    $sql = "SELECT * FROM `anunci` ";
+        $sql = "SELECT * FROM `anunci` ";
 
-    if($anu_marca !=""){
+        if($anu_marca !=""){
 
-        $sql .= " WHERE `anu_marca` LIKE '$anu_marca' ";
-    }
-    
-    if($anu_modelo !=""){
+            $sql .= " WHERE `anu_marca` LIKE '$anu_marca' ";
+        }
+        
+        if($anu_modelo !=""){
 
-        $sql .= " WHERE `anu_modelo` LIKE '$anu_modelo' ";
-    }
-    if($anu_color !="0"){
+            $sql .= " WHERE `anu_modelo` LIKE '$anu_modelo' ";
+        }
+        if($anu_color !="0"){
 
-    $sql .= " WHERE `anu_color` LIKE '$anu_color' ";
-    }
-    
-    if ($orden != "0"){
-        $sql .= " ORDER BY $orden";
-    } 
+        $sql .= " WHERE `anu_color` LIKE '$anu_color' ";
+        }
+        
+        if ($orden != "0"){
+            $sql .= " ORDER BY $orden";
+        } 
 
-    //echo $sql;
-    $anuncios = mysqli_query($conexion, $sql);
+        //echo $sql;
+        $anuncios = mysqli_query($conexion, $sql);
 
-    //cuantos registros devuelven de la consulta correcta.
-    echo "Resultados obtenidos: " . mysqli_num_rows($anuncios) . "</br></br>";
+        //cuantos registros devuelven de la consulta correcta.
+        echo "Resultados obtenidos: " . mysqli_num_rows($anuncios) . "</br></br>";
 
-    //si el numero de registros que devuelve es mayor que 0 mostrara los elementos de la consulta, sino, muestra error.
-if (mysqli_num_rows($anuncios) > 0) {
-    while($anuncio = mysqli_fetch_array($anuncios))
-    {   
-        echo "<div  class="."anuncios".">";
-        //echo "id: " . $anuncio['anu_id'] . "<br/>";
-        echo "fecha anuncio: " .$anuncio['anu_data_anunci'] . "<br/>";
-        echo "marca bici: " . $anuncio['anu_marca'] . "<br/>";
-        echo "modelo bici: " .$anuncio['anu_model'] . "<br/>";
-        echo "color bici: " .$anuncio['anu_color'] . "<br/>";
-        echo "fecha robo: " .$anuncio['anu_data_robatori'] . "<br/>";
-        echo "ubicacion robo: " .$anuncio['anu_ubicacio_robatori'] . "<br/>";
-        $foto='img/'.$anuncio['anu_foto'];
+        //si el numero de registros que devuelve es mayor que 0 mostrara los elementos de la consulta, sino, muestra error.
+        if (mysqli_num_rows($anuncios) > 0) {
+                while($anuncio = mysqli_fetch_array($anuncios))
+            {   
+                echo "<div  class="."anuncios".">";
+                //echo "id: " . $anuncio['anu_id'] . "<br/>";
+                echo "fecha anuncio: " .$anuncio['anu_data_anunci'] . "<br/>";
+                echo "marca bici: " . $anuncio['anu_marca'] . "<br/>";
+                echo "modelo bici: " .$anuncio['anu_model'] . "<br/>";
+                echo "color bici: " .$anuncio['anu_color'] . "<br/>";
+                echo "fecha robo: " .$anuncio['anu_data_robatori'] . "<br/>";
+                echo "ubicacion robo: " .$anuncio['anu_ubicacio_robatori'] . "<br/>";
+                $foto='img/'.$anuncio['anu_foto'];
 
-                if (file_exists ($foto)){
-                    echo "<img  src='" . $foto . "' width='300' /><br/><br/>";
-                } else {
-                    echo "<img src='img/0.jpg' width='300' class="."nueva_clase"."/><br/><br/>";
-                }
-        echo "Descripcion robatorio: " .$anuncio['anu_descripcio_robatori'] . "<br/>";      
-        echo "</div>";
-        echo "</br> </br>";
-    }
-}
-else{
-    echo "No hay datos que motrar";
-}
-    
-    mysqli_close($conexion);
+                        if (file_exists ($foto)){
+                            echo "<img  src='" . $foto . "' width='300' /><br/><br/>";
+                        } else {
+                            echo "<img src='img/0.jpg' width='300' class="."nueva_clase"."/><br/><br/>";
+                        }
+                echo "Descripcion robatorio: " .$anuncio['anu_descripcio_robatori'] . "<br/>";      
+                echo "</div>";
+                echo "</br> </br>";
+            }
+        }
+        else{
+        echo "No hay datos que motrar";
+        }
+        
+        mysqli_close($conexion);
 
-    ?>
+        ?>
 
-</div>
+    </div>
+    </div>
+
 
                 
                 
