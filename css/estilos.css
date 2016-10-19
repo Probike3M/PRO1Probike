@@ -153,7 +153,9 @@ ul,ol         { list-style:none; }
 
 
 /* Layout ================================================================================ */
-.wrapper { min-width: 990px; }
+.wrapper { min-width: 990px; 
+    min-height: 100%;
+}
 .page { width: 990px; margin: 0 auto;}
 .page-print {
     padding:25px 30px; text-align:left;
@@ -178,9 +180,11 @@ ul,ol         { list-style:none; }
 .col-main { float:left; width: 754px; padding:0 0 1px; }
 .col-right { float:right; width:195px; padding:0 0 1px; }
 
-.nueva_clase {background: red; width: 50%; height: auto; position:absolute; margin-left: 30%; margin-top: -25%; }
-.anuncios{ background: white;  }
+.nueva_clase {width: 50%; position:relative; margin-left: 30%; z-index:1; margin-top: 2.5%;}
+
+.anuncios{ background: white;  border: 1px solid #cfcfcf;  }
 .buscador {background: white; float:left; width: 15%; margin-left: 2%; }
+
 
 
 /* 1 Column Layout */
@@ -4558,6 +4562,7 @@ h2.title_filters {
 
 /* Footer ================================================================================ */
 .footer-container {
+        bottom: -50%;
      margin: 0 auto; 
      position: relative;
 }

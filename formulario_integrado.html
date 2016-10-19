@@ -2156,28 +2156,37 @@ Aqui empieza nuestro codigo
 
 hemos integrado el formulario en la página que nos han asignado para el pro
 -->
-<div class="col-left sidebar">
-      <form id="search_mini_form" name="buscador" method="GET" action="buscador_integrado.php">
+  <div class="col-left sidebar"><h2 class="title_filters" style="text-transform:uppercase">Localizador de Bicicletas</h2>
+<div class="block block-layered-nav">
+    <div class="block-content">
+        <dl id="narrow-by-list">
+        <form id="search_mini_form" name="buscador" method="GET" action="buscador_integrado.php">
         <fieldset>
-          <h1>Localizador de Bicicletas</h1>
-          <p>Rellena tus condiciones de búsqueda</p>
+          <h2>Rellena tus condiciones de búsqueda</h2>
+          
           
         </fieldset>
         <fieldset>
           <div class="form-search">
-            <label for="marca">Marca</label>
+            <label for="marca">Marca</label><br/>
              <input type="text" name="anu_marca" id="anu_marca" value="">
           </div>
           <div>
-            <label for="modelo">Modelo</label>
+            <label for="modelo">Modelo</label><br/>
            <input type="text" name="anu_modelo" id="anu_modelo" value="">
+          </div> 
+            <div>
+            <label for="serie">Num. serie</label>
+
+            <input type="text" name="anu_numero_serie" id="anu_numero_serie" value="">
+            
           </div>
-          <div>
-           
-          </div>
-          <div>
-            <label for="color">Color</label>
+         
+
+          <label for="color">Color bicicleta: </label>
+
             <select name="anu_color" id="anu_color" >
+
               <OPTION VALUE="0">Elige un Color</OPTION>
               <OPTION VALUE="Amarilla">Amarilla</OPTION>
               <OPTION VALUE="Azul">Azul</OPTION>
@@ -2186,15 +2195,10 @@ hemos integrado el formulario en la página que nos han asignado para el pro
               <OPTION VALUE="Verde">Verde</OPTION>
               <OPTION VALUE="Naranja">Naranja</OPTION>
               <OPTION VALUE="Rosa">Rosa</OPTION>
-               <OPTION VALUE="Roja">Roja</OPTION>
+                <OPTION VALUE="Roja">Roja</OPTION>
              </select>
-              <div>
-            <label for="serie">Numero de serie</label>
-            <input type="text" name="anu_numero_serie" id="serie" value="">
-            
-          </div>
-          </div>
-        </fieldset>
+        
+
         <div>
  
             <label for="orden">Ordenar por:</label>
@@ -2208,18 +2212,20 @@ hemos integrado el formulario en la página que nos han asignado para el pro
            
              </select>
              
-              <div>
-   
+              
+            </br></br>
          
           <div class="botonform">
             <input type="submit" name="accion" value="Borrar" />
             <input type="submit" name="accion" value="Buscar" />
           </div>
-        
+       </fieldset> 
       </form>
+        </dl>    
     </div>
-    </div>
+</div>
 
+</div>
 
                 
                 
