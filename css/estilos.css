@@ -972,7 +972,7 @@ tr.summary-details-excluded { font-style:italic; }
     position: relative;
 }
 #nav li.active a.level-top { color:#d96708; }
-#nav a { float:left; padding: 12px 11px 12px 14px; color: #fff; font-weight: normal; text-transform: uppercase;}
+#nav a { float:left; padding: 12px 11px 12px 11px; color: #fff; font-weight: normal; text-transform: uppercase;}
 
 #nav .level0:hover { color:#fff; background:url("../images/fons_sidebar_cart.png") repeat scroll 0 0 transparent; }
 
