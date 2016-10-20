@@ -398,7 +398,7 @@ _gaq.push(['_trackPageview']);
 <div class="header-container clearfix">
     <div class="header clearfix">
         <p class="welcome-msg"> </p>
-                <a href="http://www.probike.com/" title="Probike" class="logo">
+                <a href="./Probike%20_%20Productos%20de%20ciclismo%20_%20Taller%20_%20Noticias%20_%20Actividades.html" title="Probike" class="logo">
             Probike        </a>
                 <div class="quick-access">
             <form id="search_mini_form" action="http://www.probike.com/catalogsearch/result/" onsubmit="return verficarBuscador();" method="get">
@@ -2131,7 +2131,10 @@ _gaq.push(['_trackPageview']);
 <a href="http://www.probike.com/ofertas.html" class="level-top">
 <span>Ofertas</span>
 </a>
-</li><li class="level0 nav-9 active level-top last"><a href="#" class="level-top"><span>Bicicletas perdidas</span></a>       
+</li><li class="level0 nav-9 active level-top last">
+<a href="#" class="level-top">
+<span>Bicicletas perdidas</span>
+</a>          
 
     </ul>
 </div>    </div>
@@ -2188,13 +2191,7 @@ hemos integrado el formulario en la página que nos han asignado para el pro
                     <input type="text" name="anu_numero_serie" id="anu_numero_serie" value="">
                     
                   </div>
-                  <label for="serie">Fecha anuncio</label>    
-                  <input type="date" name="anu_data_anunci">
-                    </br>
-
-                    <label for="serie">Fecha robo</label>
-                  <input type="date" name="anu_data_robatori">
-                    </br>
+                 
 
                   <label for="color">Color bicicleta: </label>
 
@@ -2258,57 +2255,38 @@ hemos integrado el formulario en la página que nos han asignado para el pro
 
         extract($_REQUEST);
 
-        echo $anu_data_robatori;
-        echo $anu_data_anunci;
 
-        $sql = "SELECT * FROM `anunci`  ";
-
-        if($anu_color !="0"){
-
-             $sql .= " WHERE `anu_color` LIKE '$anu_color'  ";
-        }
-
-            
-
+        $sql = "SELECT * FROM `anunci` ";
 
         if($anu_marca !=""){
 
-            $sql .= " WHERE `anu_marca` LIKE '$anu_marca'  ";
+            $sql .= " WHERE `anu_marca` LIKE '$anu_marca' ";
         }
         
         if($anu_modelo !=""){
 
-            $sql .= " WHERE `anu_modelo` LIKE '$anu_modelo'  ";
+            $sql .= " WHERE `anu_modelo` LIKE '$anu_modelo' ";
         }
         if($anu_ubicacio_robatori != ""){
 
-            $sql .= " WHERE  `anu_ubicacio_robatori` LIKE '%$anu_ubicacio_robatori%'  ";
+            $sql .= " WHERE `anu_ubicacio_robatori` LIKE '%$anu_ubicacio_robatori%' ";
 
         }
-        
+        if($anu_color !="0"){
 
-        if ($anu_data_anunci != ""){
-             $sql .= " WHERE `anu_data_anunci` = '$anu_data_anunci' ";
+        $sql .= " WHERE `anu_color` LIKE '$anu_color' ";
         }
-
-         if ($anu_data_robatori != ""){
-             $sql .= " WHERE `anu_data_robatori` = '$anu_data_robatori' ";
-        }
-
         
         if ($orden != "0"){
-            $sql .= " ORDER BY $orden DESC";
+            $sql .= " ORDER BY $orden";
         } 
-
 
         //echo $sql;
         $anuncios = mysqli_query($conexion, $sql);
-        
-        echo "consulta:". $sql ."</br></br>";
 
         //cuantos registros devuelven de la consulta correcta.
         echo "Resultados obtenidos: " . mysqli_num_rows($anuncios) . "</br></br>";
-    
+
         //si el numero de registros que devuelve es mayor que 0 mostrara los elementos de la consulta, sino, muestra error.
         if (mysqli_num_rows($anuncios) > 0) {
                 while($anuncio = mysqli_fetch_array($anuncios))
@@ -2317,11 +2295,11 @@ hemos integrado el formulario en la página que nos han asignado para el pro
                 echo "<h1> " .$anuncio['anu_titol'] . "</h1><br/>";
                 echo "<strong>Fecha anuncio:</strong> " .$anuncio['anu_data_anunci'] . "<br/>";
                 //echo "id: " . $anuncio['anu_id'] . "<br/>";
-                echo "<strong>Fecha robo: </strong> " .$anuncio['anu_data_robatori'] . "<br/>";
+                echo "<strong>Fecha anuncio:</strong>  " .$anuncio['anu_data_anunci'] . "<br/>";
                 echo "<strong>Marca bici: </strong> " . $anuncio['anu_marca'] . "<br/>";
                 echo "<strong>Modelo bici: </strong> " .$anuncio['anu_model'] . "<br/>";
                 echo "<strong>Color bici:</strong>  " .$anuncio['anu_color'] . "<br/>";
-                
+                echo "<strong>Fecha robo: </strong> " .$anuncio['anu_data_robatori'] . "<br/>";
                 echo "<strong>Ubicacion robo:</strong>  " .$anuncio['anu_ubicacio_robatori'] . "<br/>";
                 $foto='img/'.$anuncio['anu_foto'];
 
