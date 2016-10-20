@@ -2163,7 +2163,7 @@ hemos integrado el formulario en la página que nos han asignado para el pro
      <div class="block-content">
         <dl id="narrow-by-list">
 
-                <form id="search_mini_form" name="buscador" method="GET" action="buscador.php">
+                <form id="f1" name="f1" method="GET" action="buscador.php">
                 <fieldset>
                   <h2>Rellena tus condiciones de búsqueda</h2>
                   
@@ -2190,11 +2190,13 @@ hemos integrado el formulario en la página que nos han asignado para el pro
                     
                   </div>
                   <label for="serie">Fecha anuncio</label>    
-                  <input type="date" name="anu_data_anunci">
+                 <input type="date" name="anu_data_anunci" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])"
+                  title="El formato debe ser yyyy-mm-dd"/>
                     </br>
 
                     <label for="serie">Fecha robo</label>
-                  <input type="date" name="anu_data_robatori">
+                 <input type="date" name="anu_data_robatori" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])"
+                  title="El formato debe ser yyyy-mm-dd"/>
                     </br>
 
                   <label for="color">Color bicicleta: </label>
@@ -2336,9 +2338,9 @@ hemos integrado el formulario en la página que nos han asignado para el pro
                 $foto='img/'.$anuncio['anu_foto'];
 
                         if (file_exists ($foto)){
-                            echo "<img  src='" . $foto . "' width='200' /><br/><br/>";
+                            echo "<img src='" . $foto . "' width='300'/><br/><br/>";
                         } else {
-                            echo "<img src='img/0.jpg' width='200' class="."nueva_clase"."/><br/><br/>";
+                            echo "<img src='img/0.png' width='300'/><br/><br/>";
                         }
                 echo "Descripcion robatorio: " .$anuncio['anu_descripcio_robatori'] . "<br/>";      
                 echo "</div>";
