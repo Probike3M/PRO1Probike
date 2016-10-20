@@ -266,7 +266,74 @@ __cineticGA('send','event',accion,label,valor);
 	
 	// ]]>
 	
-</script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script></head>
+</script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+
+<script >
+function validar(){
+
+        var error="Errores en:\n";
+
+        //validación del titulo del anuncio
+        if(document.f1.anu_titol.value==""){
+            error+="El campo titulo anuncio esta vacio\n";
+        } else if(document.f1.anu_titol.value.length<10){
+            error+="La longitud del titulo es de almenos, 10 carácteres\n";
+        }
+
+        //validación de la marca de la bici
+        if(document.f1.anu_marca.value==""){
+            error+="La marca de la bicicleta es requerida\n";
+        }
+        if(document.f1.anu_model.value==""){
+            error+="El modelo de la bicicleta es requerido\n";
+        }
+        
+        //validación de la ubicacion del robo
+        if(document.f1.anu_ubicacio_robatori.value==""){
+            error+="La ubicacion del robo es requerido\n";
+        }
+
+        //validación de la descripcion del robo
+        if(document.f1.anu_descripcio_robatori.value==""){
+            error+="La descripcion del robo es requerido\n";
+        }
+
+        //validación de la descripcion del robo
+        if(document.f1.anu_data_anunci.value==""){
+            error+="La fecha del anuncio es requerida\n";
+        }
+        
+        //validación de la dfecha de robo
+        if(document.f1.anu_data_robatori.value==""){
+            error+="La fecha del robatorio es requerida\n";
+        }
+        
+        //validación del color de la bici
+        if(document.f1.anu_color.value==""){
+            error+="El color de la bicicleta es requerido\n";
+        }
+
+        //validación de la descripcion del anuncio
+        if(document.f1.anu_descripcio.value==""){
+            error+="La descripcion del anuncio es requerido\n";
+        }
+
+        //validación de la foto
+        if(document.f1.anu_foto.value==""){
+            error+="Falta subir la foto\n";
+        }
+
+        if(error=="Errores en:\n"){
+            return true;
+        } else {
+            alert(error);
+            return false;
+        }
+    }
+
+</script>
+
+</head>
 <body class=" catalog-category-view categorypath-bicicletas-html category-bicicletas">
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -2161,7 +2228,7 @@ hemos integrado el formulario en la página que nos han asignado para el pro
    <h1 style="color: #FF6000;">Añade tu anuncio de robatorio</h1>
   
 
-                <form id="search_mini_form" name="buscador" method="GET" action="insertar_datos.php">
+                <form id="f1" name="f1" method="GET" action="insertar_datos.php" onsubmit="return validar()";>
                 <fieldset>
                   
                   <h5>Los campos (*) son obligatorios</h5>
@@ -2201,11 +2268,11 @@ hemos integrado el formulario en la página que nos han asignado para el pro
                     <input type="radio" name="anu_antiguitat" value="mas de 5 años" />mas de 5 años<br/>
                  
                     <label for="serie">Fecha anuncio (*)</label><br/>    
-                  <input type="date" name="anu_data_anunci">
+                  <input type="date" name="anu_data_anunci" id="anu_data_anunci">
                     </br>
 
                     <label for="serie">Fecha robo (*)</label><br/>
-                  <input type="date" name="anu_data_robatori">
+                  <input type="date" name="anu_data_robatori" id="anu_data_robatori">
                     </br>
 
                   <label for="color">Color bicicleta (*)</label><br/>
