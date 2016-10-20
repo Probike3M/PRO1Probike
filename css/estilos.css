@@ -181,11 +181,10 @@ ul,ol         { list-style:none; }
 .col-right { float:right; width:195px; padding:0 0 1px; }
 
 .nueva_clase {width: 50%; position:relative; margin-left: 30%; z-index:1; margin-top: 2.5%;}
-
-.anuncios{ background: white;  border: 1px solid #cfcfcf;  }
-.buscador {background: white; float:left; width: 15%; margin-left: 2%; }
-
-
+.anuncios{ background: white;  border: 1px solid #cfcfcf;   }
+.buscador { background: white; float:left; width: 15%; margin-left: 2%; }
+.resultado{color: #FF6000; font-weight:bold; ; border: 1px solid #; position: relative;  }
+.insertar_anuncios{width: 50%; position:relative; margin-left: 25%; z-index:1; margin-top: 2.5%; background: white;  border: 1px solid #cfcfcf; padding: 20px 0px 20px 40px;}
 
 /* 1 Column Layout */
 .col1-layout .col-main { float:none; width:auto; }
@@ -972,7 +971,7 @@ tr.summary-details-excluded { font-style:italic; }
     position: relative;
 }
 #nav li.active a.level-top { color:#d96708; }
-#nav a { float:left; padding: 12px 11px 12px 11px; color: #fff; font-weight: normal; text-transform: uppercase;}
+#nav a { float:left; padding: 12px 11px 12px 14px; color: #fff; font-weight: normal; text-transform: uppercase;}
 
 #nav .level0:hover { color:#fff; background:url("../images/fons_sidebar_cart.png") repeat scroll 0 0 transparent; }
 
