@@ -77,12 +77,7 @@ INSERT INTO `anunci` (`anu_id`, `anu_titol`, `anu_data_anunci`, `anu_data_robato
 (27, 'TREK Powerfly 9 LT Plus', '2016-10-19', '2016-10-19', 'Viladecans', 'Mientras la niña se columpiaba en el parque', 'TREK', 'Powerfly 9 LT Plus', 'Azul', NULL, 'Bicleta Rosa Powerfly 9 LT Plus', '352424', '27.png', '45.00'),
 (28, 'ORBEA MX-KIDS', '2016-10-20', '2016-10-20', 'Teruel', 'Mientras el niño merendaba en la plaza', 'ORBEA', 'ORBEA MX-KIDS', 'Negra', NULL, 'Bicleta Negra ORBEA MX-KIDS', '352422', '28.png', '50.00'),
 (29, 'ORBEA MX-KIDS', '2016-10-21', '2016-10-21', 'Hospitalet del Llobregat', 'Me la robaron cuando estudiaba en la biblioteca', 'ORBEA', 'KERAM-COMFORT', 'Negra', NULL, 'Bicleta Roja KERAM-COMFORT', '352421', '29.png', '40.00'),
-(30, 'ORBEA MX-KIDS', '2016-10-20', '2016-10-19', 'Barcelona', 'Me la robaron paseando por la ciudad', 'ORBEA', 'OPTIMA-STREET', 'Azul', NULL, 'Bicleta Azul OPTIMA-STREET', '332421', '30.png', '50.00'),
-(31, 'prueba', '2016-10-17', '2016-10-17', 'prueba', 'prueba', 'prueba', 'prueba', 'prueba', 'menos de un año', 'prueba', 'prueba', 'foto.png', '5.00'),
-(32, 'prueba', '2016-10-17', '2016-10-17', 'prueba', 'prueba', 'prueba', 'prueba', 'prueba', 'menos de un año', 'prueba', 'prueba', 'foto.png', '5.00'),
-(33, 'prueba', '2016-10-17', '2016-10-17', 'prueba', 'prueba', 'prueba', 'prueba', 'prueba', 'menos de un año', 'prueba', 'prueba', 'foto.png', '5.00'),
-(34, 'prueba', '2016-10-17', '2016-10-17', 'prueba', 'prueba', 'prueba', 'prueba', 'prueba', 'menos de un año', 'prueba', 'prueba', 'foto.png', '5.00'),
-(35, 'prueba2', '2016-10-17', '2016-10-17', 'prueba2', 'prueba2', 'prueba2', 'prueba2', 'prueba2', 'menos de un año', 'prueba2', 'prueba2', 'foto.png', '5.00');
+(30, 'ORBEA MX-KIDS', '2016-10-20', '2016-10-19', 'Barcelona', 'Me la robaron paseando por la ciudad', 'ORBEA', 'OPTIMA-STREET', 'Azul', NULL, 'Bicleta Azul OPTIMA-STREET', '332421', '30.png', '50.00');
 
 --
 -- Índices para tablas volcadas
