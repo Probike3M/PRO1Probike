@@ -1,1 +1,2 @@
-esto es una prueba de la validación
+﻿esto es una prueba de la validación
+. voy a modificarlo.
